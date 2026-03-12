@@ -7,7 +7,7 @@ import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 const faqs = [
   {
-    question: "What industries does VirtueByte serve in the USA?",
+    question: "What industries does VirtueByte serve?",
     answer: "VirtueByte offers IT consulting, Salesforce implementation, AI solutions, and cloud services to companies in various industries in the United States. Among our most frequent partners are health tech companies, manufacturing and logistics enterprises, fintech startups, education tech platforms, and SMBs on the growth track. Our approach is industry-specific, meaning we tailor Salesforce consulting, cloud infrastructure, and automation solutions based on your operational challenges, compliance requirements, and growth goals.",
   },
   {
