@@ -1,0 +1,80 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import AnimatedSection from "@/components/ui/AnimatedSection";
+
+export default function HeroSection() {
+  return (
+    <section className="relative min-h-[85vh] flex items-center overflow-hidden">
+      {/* YouTube Video Background */}
+      <div className="absolute inset-0 z-0">
+        <iframe
+          src="https://www.youtube.com/embed/VvqWZOE0fzc?autoplay=1&mute=1&loop=1&playlist=VvqWZOE0fzc&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200%] h-[200%] md:w-[150%] md:h-[150%] pointer-events-none"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          title="Background Video"
+        />
+        <div className="absolute inset-0 bg-[#403068]/90" />
+      </div>
+
+      <div className="relative z-10 w-full px-5 md:px-10 lg:px-[60px] py-[50px] md:py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] items-center gap-8">
+          <div className="lg:ml-[35px]">
+            <AnimatedSection animation="fadeIn">
+              <h1 className="text-[36px] md:text-[56px] lg:text-[50px] font-semibold text-white font-fira leading-[1.2em]">
+                Transforming Businesses with Smart{" "}
+                <span className="text-primary">IT</span>,{" "}
+                <span className="text-primary">Salesforce</span> &{" "}
+                <span className="text-primary">Cloud</span> Solutions
+              </h1>
+            </AnimatedSection>
+            <AnimatedSection animation="fadeInUp" delay={0.2}>
+              <p className="mt-4 text-[16px] italic text-primary/80 font-medium">
+                &ldquo;Technology should accelerate growth — not slow it down.&rdquo;
+              </p>
+              <p className="mt-4 text-[18px] leading-[1.4em] md:leading-[1.2em] lg:leading-[24px] text-[#E0E0E0] max-w-xl tracking-[0.4px]">
+                VirtueByte helps businesses leverage technology to transform operations and unlock data-driven decision-making through Salesforce consulting, AI, cloud transformation, and software development.
+              </p>
+            </AnimatedSection>
+            <AnimatedSection animation="fadeInUp" delay={0.4}>
+              <div className="mt-8">
+                <Link
+                  href="/contact/"
+                  className="inline-flex items-center justify-center font-lato text-[15px] md:text-[16px] font-semibold uppercase leading-[1.3em] text-white bg-primary border border-primary rounded-[15px] px-[30px] py-[15px] shadow-md transition-all duration-300 hover:shadow-[0px_5px_5px_0px_rgba(251,0,252,0.56)]"
+                >
+                  Request a Free Strategy Call
+                  <svg
+                    className="w-5 h-5 ml-2"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </Link>
+              </div>
+            </AnimatedSection>
+          </div>
+
+          <AnimatedSection animation="fadeIn" delay={0.3} className="flex justify-center items-center">
+            <Image
+              src="/images/home/hero-banner.png"
+              alt="VirtueByte Expertise"
+              width={800}
+              height={800}
+              className="w-full max-w-[800px] h-auto"
+              priority
+            />
+          </AnimatedSection>
+        </div>
+      </div>
+    </section>
+  );
+}
