@@ -28,7 +28,7 @@ const lato = Lato({
 export const metadata: Metadata = {
   metadataBase: new URL("https://virtuebytech.com"),
   title: {
-    default: "IT Consulting & Software Development Services in USA- VirtuByte",
+    default: "IT Consulting & Software Development Services | VirtuByte",
     template: "%s | VirtuByte",
   },
   description:
@@ -70,13 +70,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          src="https://analytics.ahrefs.com/analytics.js"
-          data-key="HPpByE+PEwojsfKXuGornA"
-          async
-        />
-      </head>
       <body
         className={`${firaSans.variable} ${outfit.variable} ${lato.variable} antialiased`}
       >

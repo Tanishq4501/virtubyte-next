@@ -19,10 +19,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What industries does VirtueByte serve in the USA?",
+      name: "What industries does VirtueByte serve?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "VirtueByte provides IT consulting, Salesforce implementation, AI solutions, cloud services, and offshore development support to businesses across healthcare technology, manufacturing, fintech, edtech, SMBs, and enterprise organizations throughout the United States. Our solutions are tailored to each industry's operational and compliance requirements.",
+        text: "VirtueByte provides IT consulting, Salesforce implementation, AI solutions, cloud services, and offshore development support to businesses across healthcare technology, manufacturing, fintech, edtech, SMBs, and enterprise organizations globally. Our solutions are tailored to each industry's operational and compliance requirements.",
       },
     },
     {

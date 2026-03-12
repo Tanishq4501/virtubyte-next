@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "Do you provide dedicated offshore development teams?",
-    answer: "Yes, we offer dedicated offshore development teams that work as an extension of your in-house team. With our offshore model, companies in the USA can reduce development costs, scale faster, access specialized technical expertise, and accelerate project timelines. We maintain transparent communication, structured reporting, and alignment with your business objectives to ensure seamless collaboration.",
+    answer: "Yes, we offer dedicated offshore development teams that work as an extension of your in-house team. With our offshore model, companies can reduce development costs, scale faster, access specialized technical expertise, and accelerate project timelines. We maintain transparent communication, structured reporting, and alignment with your business objectives to ensure seamless collaboration.",
   },
   {
     question: "How do I determine if VirtueByte is the most suitable IT consulting partner for my business?",
