@@ -41,7 +41,7 @@ export const footerData = {
     { label: "About Us", href: "/about/" },
     { label: "Our Services", href: "/services/" },
     { label: "Contact Us", href: "/contact/" },
-    { label: "Jobs", href: "/jobs/" },
+    /* { label: "Jobs", href: "/jobs/" }, */
   ],
   services: [
     { label: "Salesforce Implementation", href: "/services/salesforce-implementation/" },
